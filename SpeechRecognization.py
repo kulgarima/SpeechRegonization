@@ -10,4 +10,4 @@ with sr.Microphone() as source:
         print("you said...",text)
         webbrowser.open('https://www.google.co.in/search?q='+text)
     except:
-        print("Could not understand")
+        print("Could not understand the speech")
